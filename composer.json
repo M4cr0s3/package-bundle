@@ -1,0 +1,29 @@
+{
+  "name": "macrose/packages-bundle",
+  "type": "symfony-bundle",
+  "version": "1.0.0",
+  "require": {
+    "symfony/framework-bundle": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Macrose\\PackagesBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Acme\\BlogBundle\\Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": ""
+    }
+  ],
+  "authors": [
+    {
+      "name": "Macrose"
+    }
+  ]
+}
